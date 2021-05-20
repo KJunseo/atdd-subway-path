@@ -12,7 +12,7 @@ public class MemberRequest {
     @NotBlank
     private String password;
     @NotNull
-    private int age;
+    private Integer age;
 
     public MemberRequest() {
     }
